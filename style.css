@@ -1,0 +1,482 @@
+*{
+	box-sizing: border-box;
+	
+}
+body{
+	color: #777;
+}
+
+.buton{
+	font-size: 12px;
+	border-radius: 0;
+}
+/*header*/
+header{
+	border: 1px solid darkgrey;
+	background-color: rgba(224,224,224,0.2);
+}
+.above-nav ul li i{
+	color: darkgrey;
+}
+.above-nav ul li i:hover{
+	color: rgb(0,172,238);
+}
+
+
+/*Navbar*/
+#anui, #nbui{
+	border-right: 1px solid darkgrey;
+}
+.logo{
+	width: 7%;
+}
+
+
+/*Carousel*/
+.carousel-txt div h1{
+	font-size: 42px;
+}
+.car-txt-p{
+	max-width: 70%;
+	text-align: center;
+	color: grey;
+}
+.carousel-indicators{
+	bottom: -160px;
+	z-index: 4;
+}
+.carousel img{
+	max-height: 500px;
+	margin: 0 auto;
+	object-fit: cover;
+}
+.car-txt{
+	color: #21B6A8;
+}
+.car-btn{
+	color: white;
+	background-color: #21B6A8;
+	min-height: 50px;
+    min-width: 200px;
+}
+.car-btn:hover{
+    background-color: red;
+    }
+.carousel-txt{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+}
+
+
+/*below Carousel Div Section*/
+.below-carousal-hr{
+	width: 40%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.below-carousal{
+	position: relative;
+	top: -90px;
+	z-index: 2;
+}
+.content1{
+	background: linear-gradient(to bottom, rgba(192,192,192,0.9) 0%, rgba(192,192,192,0.9) 100%);
+	width: 30%;
+}
+.content1:hover{
+	background: linear-gradient(to bottom, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.85) 100%);
+	color: white;
+}
+
+.content2{
+	background: linear-gradient(to bottom, rgba(192,192,192,0.9) 0%, rgba(192,192,192,0.9) 100%);
+	width: 30%;
+}
+.content2:hover{
+	background: linear-gradient(to bottom, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.85) 100%);
+	color: white;
+}
+.content3{
+	background: linear-gradient(to bottom, rgba(192,192,192,0.9) 0%, rgba(192,192,192,0.9) 100%);
+	width: 30%;
+}
+.content3 h4{
+    color: black;
+}
+.content3:hover h4{
+    color: white;
+}
+.content2 h4{
+    color: black;
+}
+.content2:hover h4{
+    color: white;
+}
+.content1 h4{
+    color: black;
+}
+.content1:hover h4{
+    color: white;
+}
+.content3:hover{
+	background: linear-gradient(to bottom, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.85) 100%);
+	color: white;
+}
+.content1 , .content2 , .content3 p{
+	font-size: 14px;
+}
+
+
+/*Welcome Section*/
+.welcome-section-img{
+	position: relative;
+}
+.welcome-section-img img{
+	height: 350px;
+}
+.welcome-section-video{
+	position: absolute;
+	width: 60%;
+	top: 25%;
+	left: 25%;
+}
+.welcome-section-video div iframe{
+	border: 4px solid white;
+}
+.li-end li{
+	border-right: 4px solid #21B6A8;
+}
+.welcome-section p{
+	font-size: 12px;
+    padding-top: 3px;
+}
+.welcome-section h6{
+	color: black;
+}
+.welcome-section h2{
+	font-size: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+  
+}
+
+
+/*Dark Background Section*/
+.dark-bg-sec-head{
+	max-width: 60%;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+.dark-bg-sec{
+	background-color: black;
+	object-fit: cover;
+	padding-bottom: 100px;
+    font-family: 'Kanit', sans-serif;
+
+}
+.dark-bg-sec-p, .footer-p, .txt-li-p{
+	color: grey;
+    font-family: 'Kanit', sans-serif;
+  
+}
+.dark-bg-sec h4{
+    font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(228, 220, 220);
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.page-content:hover .circle{
+   background-color: black;
+   color: blanchedalmond;
+   transition: 0.5s;
+}
+.page-content:hover .circle{
+  background-color: black;
+  color: blanchedalmond;
+  transition: 0.5s;
+}
+.page-content:hover .circle{
+  background-color: black;
+  color: blanchedalmond;
+  transition: 0.5s;
+}
+  
+
+
+/*Chart Section*/
+.gb-section{
+	background-color: #21B6A8;
+	position: relative;
+	top: -45px;
+    width: 70%;
+}
+.gb-section h4{
+    font-size: 35px;
+}
+.white-bg-btn{
+	color: #21B6A8;
+	background-color: white;
+	min-height: 50px;
+    min-width: 200px;
+}
+.white-bg-btn:hover{
+    background-color: red;  
+    }
+.chart-section{
+	background-color: rgba(224,224,224,0.2);
+}
+
+
+/*Core Experts Section*/
+.cd-img-ht{
+	max-height: 350px;
+	object-fit: cover;
+	border-radius: 0;
+}
+
+.core-experts-card h5{
+  color: black;
+} 
+.cardss-div{
+	position: relative;
+}
+.txt-hov{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.txt-hov li a{
+	color: darkgrey;
+}
+.txt-hov li:hover a{
+	color: rgb(0,172,238);
+}
+.cardss-div:hover .txt-hov{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0,0,0,0.8);
+}
+.cardss{
+	border: none;
+	border-radius: 0;
+}
+
+.cardss:hover .cardss-name{
+	color: #21B6A8;
+}
+.core-experts-head h3{
+    font-weight: bolder;
+}
+
+/*News Update Section*/
+.news-update{
+	background-color: rgba(224,224,224,0.2);
+    font-family: 'Raleway', sans-serif;
+}
+.news-update-head{
+	display: flex;
+	justify-content: center;
+}
+.news-update-head h6{
+  color: black;
+  text-align: center;
+}
+.news-update-sec-ch{
+    color: black;
+}
+.news-update-head h3{
+    color: black;
+  }
+.news-update-li1-border{
+	border-right: 1px solid darkgrey;
+}
+.news-update-sec1:hover .news-update-sec-ch{
+	color: #21B6A8;
+}
+
+/*Footer*/
+
+.txt-li a{
+	text-decoration: none;
+	color: rgb(192,192,192);
+	font-size: 14px;
+}
+.txt-li:hover a{
+	color: #21B6A8;
+}
+input[type="email"]
+{
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(224,224,224,0.6);
+    outline: none;
+}
+
+.lf-sc{
+	color: #21B6A8;
+}
+
+.low-footer-div ul li i{
+	color: white;
+}
+.low-footer-div ul li i:hover{
+	color: rgb(0,172,238);
+}
+.low-footer-div p{
+	font-size: 12px;
+}
+    /*design section*/
+   
+.head-wrap{
+	position: relative;
+}
+.design1{
+    background-image: url('images/btn.png');
+    height: 20px;
+    width: 29px;
+    background-size: cover;
+    display: inline-block;
+}
+.head-wrap .design1::before {
+    content: "";
+    height: 3px;
+    width: 30px;
+    background: #21B6A8;
+    z-index: 9;
+    position: absolute;
+    left: -85px;
+    right: 0;
+    margin: 0 auto;
+    bottom: 15px;
+}
+.head-wrap .design1::after {
+    content: "";
+    width: 30px;
+    position: absolute;
+    height: 3px;
+    z-index: 9;
+    right: -85px;
+    background: #21B6A8;
+    left: 0;
+    margin: 0 auto;
+    bottom: 15px;
+}
+
+.design2{
+    background-image: url('images/btn.png');
+    height: 20px;
+    width: 29px;
+    background-size: cover;
+    display: inline-block;
+}
+.head-wrap .design2::before {
+    content: "";
+    height: 3px;
+    width: 30px;
+    background: #21B6A8;
+    z-index: 9;
+    position: absolute;
+    left: -85px;
+    right: 0;
+    margin: 0 auto;
+    bottom: 15px;
+}
+.head-wrap .design2::after {
+    content: "";
+    width: 30px;
+    position: absolute;
+    height: 3px;
+    z-index: 9;
+    right: -85px;
+    background: #21B6A8;
+    left: 0;
+    margin: 0 auto;
+    bottom: 15px;
+}
+
+
+.design3 {
+    background-image: url('images/btn.png');
+    height: 20px;
+    width: 29px;
+    background-size: cover;
+    display: inline-block;
+}
+.head-wrap .design3::before {
+    content: "";
+    height: 3px;
+    width: 30px;
+    background: #21B6A8;
+    z-index: 9;
+    position: absolute;
+    left: -85px;
+    right: 0;
+    margin: 0 auto;
+    bottom: 15px;
+}
+.head-wrap .design3::after {
+    content: "";
+    width: 30px;
+    position: absolute;
+    height: 3px;
+    z-index: 9;
+    right: -85px;
+    background: #21B6A8;
+    left: 0;
+    margin: 0 auto;
+    bottom: 15px;
+}
+
+
+.design4{
+    background-image: url('images/btn.png');
+    height: 20px;
+    width: 29px;
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    right: 4.5rem;
+}
+.head-wrap .design4::before {
+    content: "";
+    height: 3px;
+    width: 30px;
+    background: #21B6A8;
+    z-index: 9;
+    position: absolute;
+    left: -85px;
+    right: 0;
+    margin: 0 auto;
+    bottom: 15px;
+}
+.head-wrap .design4::after {
+    content: "";
+    width: 30px;
+    position: absolute;
+    height: 3px;
+    z-index: 9;
+    right: -85px;
+    background: #21B6A8;
+    left: 0;
+    margin: 0 auto;
+    bottom: 15px;
+}
